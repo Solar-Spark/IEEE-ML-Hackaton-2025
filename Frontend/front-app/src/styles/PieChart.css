@@ -1,0 +1,6 @@
+/* src/styles/PieChart.css */
+
+.chart-container {
+    width: 25%; /* Занимает 25% ширины страницы */
+    margin: 0 auto; /* Центрирует диаграмму */
+  }
