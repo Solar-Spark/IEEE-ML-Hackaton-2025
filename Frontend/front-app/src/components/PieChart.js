@@ -21,17 +21,17 @@ const PieChart = () => {
       labels: ['Data 1', 'Data 2', 'Data 3', 'Data 4', 'Data 5', 'Data 6'],
       datasets: [
         {
-          label: 'My Dataset',
-          data: [15, 25, 35, 45, 55, 65],
-          backgroundColor: [
-            '#87CEEB', // Sky Blue
-            '#F0F8FF', // Light Cyan
-            '#ADD8E6', // Light Blue
-            '#B0E0E6', // Powder Blue
-            '#E0FFFF', // Very Light Cyan
-            '#AFEEEE', // Pale Turquoise
-          ],
-        },
+            label: 'My Dataset',
+            data: [15, 25, 35, 45, 55, 65],
+            backgroundColor: [
+              '#00BFFF', // Deep Sky Blue
+              '#1E90FF', // Dodger Blue
+              '#4682B4', // Steel Blue
+              '#00CED1', // Dark Turquoise
+              '#20B2AA', // Light Sea Green
+              '#40E0D0', // Turquoise
+            ],
+          },
       ],
     };
 
