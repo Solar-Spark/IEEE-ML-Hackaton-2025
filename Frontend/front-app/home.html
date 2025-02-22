@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Design</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h1>Анализ закупок</h1>
+      <p>Данные из goszakup.gov.kz и zakup.sk.kz</p>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Фильтры</h2>
+      <input type="text" placeholder="Введите имя" id="nameInput">
+      <button id="addButton">Добавить</button>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+      <h2>Список имен</h2>
+      <ul id="nameList">
+        <!-- Список имен будет добавляться здесь -->
+      </ul>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
